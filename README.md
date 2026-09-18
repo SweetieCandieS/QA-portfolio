@@ -37,7 +37,7 @@ Junior QA Engineer, ищу позицию в ручном тестировани
 
 ### [`bug-reports/`](./bug-reports)
 Баг-репорты по нескольким направлениям:
-- [`knowledge-base/`](./bug-reports/knowledge-base) — тестирование раздела «База знаний» AI-бота **ooon.ai** в рамках текущей стажировки: тест-кейсы и баг-репорты со скриншотами.
+- [`knowledge-base/`](./bug-reports/knowledge-base) — тестирование раздела «База знаний» AI-бота **ooon.ai** в рамках текущей стажировки: баг-репорты со скриншотами.
 - [`training-projects/`](./bug-reports/training-projects) — баг-репорты из учебных проектов курса (UI, функциональные, cross-browser, security).
 
 ### [`sql/`](./sql)
