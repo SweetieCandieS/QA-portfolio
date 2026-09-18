@@ -18,7 +18,7 @@
 
 **Фактический результат:** Текст практически выходит за границы кнопки.
 
-(screenshots/screenshots_trainingBR/U4-10-1.png)
+![](screenshots/screenshots_trainingBR/U4-10-1.png)
 
 **Ожидаемый результат:** Расстояние в пару пикселей между текстом и границами кнопки.
 
@@ -47,7 +47,7 @@
 
 **Фактический результат:** Крестик для закрытия меню съехал вниз и перекрыл пункт меню «Помощь».
 
-(screenshots/screenshots_trainingBR/U4-11-1.png)
+![](screenshots/screenshots_trainingBR/U4-11-1.png)
 
 **Ожидаемый результат:** Перемещение крестика для закрытия в правый верхний угол.
 
@@ -71,9 +71,9 @@
 
 **Фактический результат:** Позиций в списке 16, а значений в графах «Records in List» и «Total Records» — 15.
 
-(screenshots/screenshots_trainingBR/U4-95-1.png)
+![](screenshots/screenshots_trainingBR/U4-95-1.png)
 
-(screenshots/screenshots_trainingBR/U4-95-2.png)
+![](screenshots/screenshots_trainingBR/U4-95-2.png)
 
 **Ожидаемый результат:** Значения в графах «Records in List» и «Total Records» соответствуют количеству записей в списке.
 
@@ -99,7 +99,7 @@
 
 **Фактический результат:** Происходит реакция на скрипт (выполняется JavaScript-код, введённый в поле).
 
-(screenshots/screenshots_trainingBR/U4-114-1.png)
+![](screenshots/screenshots_trainingBR/U4-114-1.png)
 
 **Ожидаемый результат:** отсутствуют какие-либо изменения при вводе скрипта
 
@@ -126,9 +126,9 @@
 
 **Фактический результат:** При создании пользователя адрес электронной почты не является обязательным полем. Невозможно восстановить пароль.
 
-(screenshots/screenshots_trainingBR/U4-119-1.png)
+![](screenshots/screenshots_trainingBR/U4-119-1.png)
 
-(screenshots/screenshots_trainingBR/U4-119-2.png)
+![](screenshots/screenshots_trainingBR/U4-119-2.png)
 
 **Ожидаемый результат:** При создании пользователя электронная почта является обязательным полем. Нельзя сохранить пользователя с пустым полем «Эл. почта».
 
@@ -153,7 +153,7 @@
 
 **Фактический результат:** В поля «Имя» и «Фамилия» допускается ввод цифр, символов, ссылок.
 
-(screenshots/screenshots_trainingBR/U4-122-1.png)
+![](screenshots/screenshots_trainingBR/U4-122-1.png)
 
 **Ожидаемый результат:** В поля «Имя» и «Фамилия» можно вводить только буквы на латинице и кириллице, первая буква — верхний регистр, остальные — нижний. Допускается ввод символов «пробел» и «-», если имя двойное.
 
@@ -178,9 +178,9 @@
 
 **Фактический результат:** В разделе «Вопрос-ответ» представлена устаревшая информация о ценах товара.
 
-(screenshots/screenshots_trainingBR/U4-126-1.png)
+![](screenshots/screenshots_trainingBR/U4-126-1.png)
 
-(screenshots/screenshots_trainingBR/U4-126-2.png)
+![](screenshots/screenshots_trainingBR/U4-126-2.png)
 
 **Ожидаемый результат:** Удалить вопрос «Какова цена изданий?» и ответ на него — фиксированной цены на издания нет, актуальные цены представлены в описании товара.
 
@@ -211,7 +211,7 @@
 
 **Фактический результат:** Контакт удаляется, хотя права на удаление были отозваны.
 
-(screenshots/screenshots_trainingBR/U4-130-1.gif)
+![](screenshots/screenshots_trainingBR/U4-130-1.gif)
 
 **Ожидаемый результат:** Должна появляться подсказка: «отсутствуют права администратора».
 
@@ -237,7 +237,7 @@
 
 **Фактический результат:** в консоле появляется ошибка 404 - *тут был бы приложен txt-файл с ошибкой из консоли*
 
-(screenshots/screenshots_trainingBR/U4-133-1.png)
+![](screenshots/screenshots_trainingBR/U4-133-1.png)
 
 **Ожидаемый результат:** ошибка в консоле отсутсвует
 
@@ -260,7 +260,7 @@
 
 **Фактический результат:** Страница пустая, отсутствует какая-либо информация.
 
-(screenshots/screenshots_trainingBR/U4-134-1.png)
+![](screenshots/screenshots_trainingBR/U4-134-1.png)
 
 **Ожидаемый результат:** На странице имеется информация.
 
