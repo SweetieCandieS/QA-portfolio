@@ -14,7 +14,7 @@ chrome_options = Options()
 chrome_options.enable_bidi = True
 chrome_options.enable_webextensions = True
 
-driver = webdriver.Chrome()#(options=chrome_options)
+driver = webdriver.Chrome(options=chrome_options)
 
 #Расширение Browsec. Без VPN сайт не прогружается
 result = driver.webextension.install(path=path_to_extension)
