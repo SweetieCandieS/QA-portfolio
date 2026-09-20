@@ -5,9 +5,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import os
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-file = os.path.join(BASE_DIR, "picture", "test-photo.jpg")
-
 driver = webdriver.Chrome()
 
 driver.maximize_window()
@@ -63,7 +60,9 @@ Confirm_Password.send_keys("Tester'Ok26")
 
 #Загрузка фото
 
-file = (r'F:\picture\test-photo.jpg')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+file = os.path.join(BASE_DIR, "picture", "test-photo.jpg")
+
 upload = wait.until(EC.element_to_be_clickable((By.ID, "imagesrc")))
 upload.send_keys(file)
 
